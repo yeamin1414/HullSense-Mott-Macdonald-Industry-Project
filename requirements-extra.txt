@@ -1,0 +1,11 @@
+# Optional — unlocks the trained CNN backend and the live dashboard.
+# The system degrades gracefully to the classical CV detector / CLI demo
+# without these, so they're kept separate from requirements.txt.
+-r requirements.txt
+torch>=2.2
+streamlit>=1.30
+
+# Only needed if you go further and train a real YOLO model on labelled
+# hull photos (see src/vision/yolo_detector.py) — not required to run
+# anything else in this repo.
+# ultralytics>=8.2

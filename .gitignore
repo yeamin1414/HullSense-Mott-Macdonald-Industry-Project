@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Generated at runtime — reproducible via scripts/, not committed.
+outputs/
+data/sample_images/*.png
+!data/sample_images/.gitkeep
+
+# Trained weights are reproducible in ~10s via scripts/train_model.py
+models/*.pt
+!models/.gitkeep
+
+.streamlit/
+.DS_Store
+Thumbs.db

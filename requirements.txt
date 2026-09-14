@@ -1,0 +1,7 @@
+# Core — required for the CLI demo, orchestrator logic and test suite.
+numpy>=1.24
+matplotlib>=3.7
+pandas>=2.0
+scikit-learn>=1.3
+pytest>=7.4
+rich>=13.0

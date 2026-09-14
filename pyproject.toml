@@ -1,0 +1,15 @@
+[project]
+name = "boat-wash-ai"
+version = "1.0.0"
+description = "Computer vision + sensor-fusion monitoring system for an automated boat wash bay (Building R13 concept design)."
+requires-python = ">=3.10"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
